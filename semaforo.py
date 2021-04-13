@@ -9,7 +9,6 @@ def eh_vermelho(s):
 
 def main():
     s = input('Semáforo está: V-verde  A-amarelo  E-vermelho ').upper()
-    print(f'Está verde: {eh_verde(s)}', f'Está amarelo: {eh_amarelo(s)}', f'Está vermelho: {eh_vermelho(s)}', sep='.\n', end='.\n')
     if eh_verde(s):
         print('Siga')
 
