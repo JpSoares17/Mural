@@ -1,12 +1,12 @@
 def let(c):
-    return ord(c) >= ord('A') and ord(c) <= ord('Z')
-
-def outr(c):
-    return not let(c)
+    if ord('A')<=ord(c)<=ord('Z'):
+        return ord('A')<=ord(c)<=ord('Z')
+    else:
+        return ord('A')<=ord(c)<=ord('Z')
 
 def main():
-    c = input('Digite um caracter: ').upper()
-    print(f'É letra: {let(c)}', f'Não é letra: {outr(c)}', sep='.\n', end='.')
+    c = input('').upper()
+    print(let(c))
 
 if __name__ == '__main__':
     main()
