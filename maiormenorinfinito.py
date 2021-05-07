@@ -7,9 +7,9 @@ def sai(ma, me):
 def process(n, ma, me):
     while True:
         nc = int(input(''))
-        if nc>n and nc!=0:
+        if nc>n and nc>ma and nc!=0:
             ma=nc
-        if nc<n and nc!=0:
+        if nc<n and nc<me and nc!=0:
             me=nc
         if nc==0: break
     return ma, me
