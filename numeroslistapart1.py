@@ -1,7 +1,7 @@
 def reverter(number):
     lista_base = []
     for y in range(number):
-        numeros = int(input(''))
+        numeros = int(input('Digite números: '))
         lista_base.append(numeros)
     lista_base.reverse()
     return lista_base
@@ -9,7 +9,7 @@ def reverter(number):
 def leitura(number):
     lista_base = []
     for y in range(number):
-        numeros = int(input(''))
+        numeros = int(input('Digite números: '))
         lista_base.append(numeros)
     return lista_base
 
@@ -28,7 +28,7 @@ def listazero(number):
 def main():
     
     #Entrada:
-    numero = int(input(''))
+    numero = int(input('Quantidade de membros da elementos: '))
 
         
     #Processamento:
