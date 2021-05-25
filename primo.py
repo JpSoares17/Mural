@@ -1,8 +1,6 @@
 def proc(n):
-    q=0
     np=0
     for i in range(n-1, 1, -1):
-        q+=1
         if n%i==0 and n!=2:
             np+=1
     if np==0:
