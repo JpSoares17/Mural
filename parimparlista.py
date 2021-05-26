@@ -16,7 +16,7 @@ def main():
     #Entrada:
     lista_total = []
     for i in range(20):
-        numero = int(input(''))
+        numero = int(input('Quantidade de termos: '))
         lista_total.append(numero)
 
     #Processamento:
