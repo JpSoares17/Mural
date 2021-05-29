@@ -9,10 +9,10 @@ def main():
     #Leitura:
     lista_leitura = []
     while True:
-        itens = int(input(''))
+        itens = int(input('Digite um número: '))
         if itens == 0: break
         lista_leitura.append(itens)
-    item_contagem = int(input(''))
+    item_contagem = int(input('Que número quer saber quantas vezes repetiu?'))
 
     #Processamento:
     quantidades_repetidas = contador(lista_leitura, item_contagem)

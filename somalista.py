@@ -8,10 +8,10 @@ def main():
     lista_a = []
     lista_b = []
     for i in range(20):
-        itens_a = int(input(''))
+        itens_a = int(input('Digite um número: '))
         lista_a.append(itens_a)
     for j in range(20):
-        itens_b = int(input(''))
+        itens_b = int(input('Digite um número: '))
         lista_b.append(itens_b)
 
     #Processamento:

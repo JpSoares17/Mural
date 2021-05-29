@@ -14,11 +14,11 @@ def main():
     lista_idades = []
     lista_alturas = []
     for i in range(30):
-        item_nome = input('')
+        item_nome = input('Nome do aluno: ')
         lista_nomes.append(item_nome)
-        item_idade = int(input(''))
+        item_idade = int(input('Idade do aluno: '))
         lista_idades.append(item_idade)
-        item_altura = float(input(''))
+        item_altura = float(input('Altura do aluno: '))
         lista_alturas.append(item_altura)
 
     #Processamento:

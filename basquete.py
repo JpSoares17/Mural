@@ -35,9 +35,9 @@ def main():
     lista_nomes = []
     lista_alturas = []
     for i in range(12):
-        item_nome = input('')
+        item_nome = input('Nome do jogador: ')
         lista_nomes.append(item_nome)
-        item_altura = float(input(''))
+        item_altura = float(input('Altura do jogador: '))
         lista_alturas.append(item_altura)
 
     #Processamento:

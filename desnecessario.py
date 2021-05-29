@@ -35,7 +35,7 @@ def main():
     #Entrada:
     minha_lista = []
     while True:
-        itens = int(input(''))
+        itens = int(input('Digite um número: '))
         if itens == 0:
             break
         minha_lista.append(itens)
