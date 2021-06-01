@@ -19,7 +19,7 @@ def carrega_cidades():
 
 def main():
     #Leitura:
-    populacao_base = int(input(''))
+    populacao_base = int(input('A partir de que população você deseja pesquisar? '))
 
     #Processamento:
     cidades = carrega_cidades()

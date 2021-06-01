@@ -45,7 +45,7 @@ def carrega_cidades():
 
 def main():
     #Leitura:
-    dia, mes = int(input('')), int(input(''))
+    dia, mes = int(input('Dia que deseja pesquisar? ')), int(input('Mês que deseja pesquisar? '))
 
     #Processamento:
     cidades = carrega_cidades()
