@@ -17,8 +17,8 @@ def somando_iguais(tempA, escalaA, tempB, escalaB):
 
 def main():
     #Leitura:
-    temperaturaA = float(input('')), input('').upper()[0]
-    temperaturaB = float(input('')), input('').upper()[0]
+    temperaturaA = float(input('Digite uma temperatura: ')), input('Está em que escala? ').upper()[0]
+    temperaturaB = float(input('Digite uma temperatura: ')), input('Está em que escala? ').upper()[0]
 
     #Processamento:
     if temperaturaA[1]==temperaturaB[1]:
