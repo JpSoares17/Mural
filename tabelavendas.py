@@ -73,10 +73,10 @@ def main():
     venda_maior_ano = maior(dados_por_coluna)
     media_fabricante = media_por_fabricante(tabela, 4)
     # Saída:
-    print(f'A fabricante que mais vendeu em ', end='')
+    print('A fabricante que mais vendeu em ', end='')
     print(ano_pesquisado, end=' ')
     print(f'foi a {maior_vendedora} com {vendas_maior} mil unidades.')
-    print(f'O ano de maior volume geral de vendas foi ', end='')
+    print('O ano de maior volume geral de vendas foi ', end='')
     print(venda_maior_ano[1]+2013, end=' ')
     print(f'com {venda_maior_ano[0]} mil unidades.')
     print('A média anual de vendas de cada fabricante entre 2013 e 2018 foi:')
