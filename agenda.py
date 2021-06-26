@@ -2,8 +2,6 @@ def gerar_agenda(numero_contatos):
     agenda = {}
     for codigo in range(numero_contatos):
         nome = input('').strip()
-        if nome == '':
-            break
         cidade = input('').strip()
         estado = input('').strip()
         telefone = input('').strip()
